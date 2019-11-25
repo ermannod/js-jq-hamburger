@@ -1,6 +1,6 @@
 $(".fas.fa-bars").click(function(){
-    $(".hamburger-menu").addClass("visible")
+    $(".hamburger-menu").addClass("active")
 });
 $(".close").click(function(){
-    $(".hamburger-menu").removeClass("visible")
+    $(".hamburger-menu").removeClass("active")
 });
